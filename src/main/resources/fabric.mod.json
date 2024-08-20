@@ -1,0 +1,32 @@
+{
+	"schemaVersion": 1,
+	"id": "wet-oxidation",
+	"version": "${version}",
+	"name": "Wet Oxidation",
+	"description": "Simple mod to allow to speed up oxidation with water bottles",
+	"authors": [
+		"BisUmTo"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/BisUmTo/wet-oxidation"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/wet-oxidation/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"it.bisumto.wetoxidation.WetOxidation"
+		]
+	},
+	"mixins": [
+		"wet-oxidation.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21"
+	},
+	"suggests": {
+	}
+}

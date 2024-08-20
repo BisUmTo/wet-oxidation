@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "it.bisumto.wetoxidation.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DispenseItemBehaviorMixin",
+    "WaterBottleItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
